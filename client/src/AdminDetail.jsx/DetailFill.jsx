@@ -53,9 +53,7 @@ function DetailFill() {
                 <a href>Privacy</a>
                 <a href>Terms &amp; Condition</a>
             </div>
-            <div className="copyright">
-                <p>© 2021 Class Technologies Inc.</p>
-            </div>
+           
         </footer>
 
 
