@@ -1,6 +1,7 @@
 import React from 'react'
 import { ReactDOM } from 'react'
 import girl from '../img/girl.png'
+import { Link } from 'react-router-dom';
 function Header()
 {
     return(<>
@@ -11,11 +12,8 @@ function Header()
             <h2><span>Admin</span> Dashboard <br /></h2>
             <p>We welcomes admin </p>
             <div className="buttons">
-              <button>Start Analysis</button>
-              <div className="play">
-                <i className="bi bi-play-fill" />
-                <a href>Watch How it works</a>
-              </div>
+              {/* <button>Start Analysis</button> */}
+              <Link to="/analysisdashboard">  <button  >Start Analysis </button> </Link>
             </div>
           </div>
           {/* <div className="img">

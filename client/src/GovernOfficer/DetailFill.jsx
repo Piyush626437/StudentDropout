@@ -22,6 +22,10 @@ function DetailFill() {
                     <h4>Analysis Data </h4>
                     <Link to="/analysisdashboard">  <button className="login"  >Start Now</button> </Link>
                 </div>
+                <div className="student platform" style={{backgroundImage: `url(${Gender})` }}>
+                    <h4>See The Predicted Result</h4>
+                    <Link to="/prediction">  <button className="login"  >See Now </button> </Link>
+                </div>
                
             </div>
         </section>

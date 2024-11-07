@@ -12,10 +12,7 @@ function Header()
             <p>We welcomes you</p>
             <div className="buttons">
               <button>Start Analysis</button>
-              <div className="play">
-                <i className="bi bi-play-fill" />
-                <a href>Watch How it works</a>
-              </div>
+             
             </div>
           </div>
           {/* <div className="img">

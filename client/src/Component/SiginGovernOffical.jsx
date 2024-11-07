@@ -15,14 +15,14 @@ function SignGovernOffical()
 
         if(email!="" && password!="")
         {  try {
-  
+            console.log(password);
               await axios.post("http://localhost:5000/sigingovernofficer/check", {
                   email, password
               })
                   .then(res => {
                       if (res.data == "exist") {
                           // history("/home",{state:{id:email}})
-                          history("/SchoolDashboard");
+                          history("/GovOfficerDashboard");
                         //   alert("ok")
                       }
                       else if (res.data == "notexist") {

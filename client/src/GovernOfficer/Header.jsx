@@ -13,10 +13,7 @@ function Header()
             <p>Welcome To Indian Government Officer</p>
             <div className="buttons">
             <Link to="/analysisdashboard">  <button className="login"  >Start Now </button> </Link>
-              <div className="play">
-                <i className="bi bi-play-fill" />
-                <a href>Watch How it works</a>
-              </div>
+              
             </div>
           </div>
           {/* <div className="img">

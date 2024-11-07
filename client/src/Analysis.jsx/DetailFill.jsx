@@ -18,26 +18,16 @@ function DetailFill() {
             </div>
             <div className="container" >
                 
-                <div className="student platform" style={{backgroundImage: `url(${download})` }}>
-                    <h4>Analysis The Data By Age  </h4>
-                    <Link to="/byage">  <button className="login"  >See Now </button> </Link>
+                
+                <div className="student platform">
+                    <h4>Analysis The Dropout Data </h4>
+                    <Link to="/analysisdata">  <button className="login"  >See Now </button> </Link>
                 </div>
                 <div className="student platform" style={{backgroundImage: `url(${Gender})` }}>
-                    <h4>Analysis The Data By Gender  </h4>
-                    <Link to="/bygender">  <button className="login"  >See Now</button> </Link>
+                    <h4>See The Predicted Result</h4>
+                    <Link to="/prediction">  <button className="login"  >See Now </button> </Link>
                 </div>
-                <div className="student platform">
-                    <h4>Analysis The Data By Area  </h4>
-                    <Link to="/byarea">  <button className="login"  >See Now </button> </Link>
-                </div>
-                <div className="student platform" style={{backgroundImage: `url(${Gender})` }}>
-                    <h4>Analysis The Data By Caste </h4>
-                    <Link to="/bycaste">  <button className="login"  >See Now </button> </Link>
-                </div>
-                <div className="student platform">
-                    <h4>Analysis The Data By Year  </h4>
-                    <Link to="/byyear">  <button className="login"  >See Now </button> </Link>
-                </div>
+               
             </div>
         </section>
        

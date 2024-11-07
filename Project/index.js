@@ -171,11 +171,12 @@ app.post("/siginschool/check", async(req, res) => {
 
 app.post("/sigingovernofficer/check", async(req, res) => {
     const { email, password } = req.body
-
+    console.log(password)
     try {
         const check = await GovernmentOfficers.findOne({
-            OfficerMailId: email,
-            OfficerPassword: password
+
+            officerEmailId: email,
+            officerPassword: password
         })
 
         // console.log(check)

@@ -31,7 +31,8 @@ import GovOfficerDashboard from './GovernOfficer/GoverOfficerDashboard';
 import Bycaste from './Analysis.jsx/Bycaste';
 import OfficerAdd from './AdminDetail.jsx/OfficerAdd';
 import AnalysisDashboard from './Analysis.jsx/AnalysisDashboard';
-
+import AnalysisData from './Analysis.jsx/AnalysisData';
+import Prediction from './Analysis.jsx/Prediction';
 
 const fname = createContext();
 
@@ -48,84 +49,91 @@ function App() {
             </Router> */
         }
 
-        <
-        Router >
+        <Router >
 
-        <
+            <
         Routes >
-        <
+                <
         Route >
-        <
-        Route path = "/"
-        exact element = { < Home / > }
-        /> <
-        Route path = "/getoverview"
-        exact element = { < Getoverview / > }
-        /> { /* <Route path="/about" exact element={<About/>} /> */ } <
-        Route path = "/siginadmin"
-        exact element = { < SiginAdmin / > }
-        /> <
-        Route path = "/siginschool"
-        exact element = { < SiginSchool / > }
-        /> <
-        Route path = "/sigingovernmentoffical"
-        exact element = { < SignGovernOffical / > }
-        /> <
-        Route path = "/SchoolDashboard"
-        exact element = { < SchoolDashboard / > }
-        /> <
-        Route path = "/AdminDashboard"
-        exact element = { < AdminDashboard / > }
-        /> <
-        Route path = "/GovOfficerDashboard"
-        exact element = { < GovOfficerDashboard / > }
-        /> <
-        Route path = "/schooladd"
-        exact element = { < SchoolAdd / > }
-        /> <
-        Route path = "/officeradd"
-        exact element = { < OfficerAdd / > }
-        /> <
-        Route path = "/studentadd"
-        exact element = { < StudentData / > }
-        />  <
-        Route path = "/byage"
-        exact element = { < Byage / > }
-        />  <
-        Route path = "/bygender"
-        exact element = { < Bygender / > }
-        />
+                    <
+                        Route path="/"
+                        exact element={< Home />}
+                    /> <
+                        Route path="/getoverview"
+                        exact element={< Getoverview />}
+                    /> { /* <Route path="/about" exact element={<About/>} /> */} <
+                        Route path="/siginadmin"
+                        exact element={< SiginAdmin />}
+                    /> <
+                        Route path="/siginschool"
+                        exact element={< SiginSchool />}
+                    /> <
+                        Route path="/sigingovernmentoffical"
+                        exact element={< SignGovernOffical />}
+                    /> <
+                        Route path="/SchoolDashboard"
+                        exact element={< SchoolDashboard />}
+                    /> <
+                        Route path="/AdminDashboard"
+                        exact element={< AdminDashboard />}
+                    /> <
+                        Route path="/GovOfficerDashboard"
+                        exact element={< GovOfficerDashboard />}
+                    /> <
+                        Route path="/schooladd"
+                        exact element={< SchoolAdd />}
+                    /> <
+                        Route path="/officeradd"
+                        exact element={< OfficerAdd />}
+                    /> <
+                        Route path="/studentadd"
+                        exact element={< StudentData />}
+                    />  <
+                        Route path="/byage"
+                        exact element={< Byage />}
+                    />  <
+                        Route path="/bygender"
+                        exact element={< Bygender />}
+                    />
 
-        <
-        Route path = "/upload"
-        exact element = { < Upload / > }
-        />  <
-        Route path = "/byyear"
-        exact element = { < Byyear / > }
-        />  <
-        Route path = "/bycaste"
-        exact element = { < Bycaste / > }
-        />  <
-        Route path = "/officeradd"
-        exact element = { < OfficerAdd / > }
-        />  <
-        Route path = "/analysisdashboard"
-        exact element = { < AnalysisDashboard / > }
-        />  { /* <Route path="/byarea" exact element={<Byarea />} />  */ } <
+                    <
+                        Route path="/upload"
+                        exact element={< Upload />}
+                    />  <
+                        Route path="/byyear"
+                        exact element={< Byyear />}
+                    />  <
+                        Route path="/bycaste"
+                        exact element={< Bycaste />}
+                    />  <
+                        Route path="/officeradd"
+                        exact element={< OfficerAdd />}
+                    />
+                    <
+                    Route path="prediction"
+                    exact element={< Prediction />}
+                />
+                 <
+                    Route path="/analysisdata"
+                    exact element={< AnalysisData />}
+                />  <
+                        Route path="/analysisdashboard"
+                        exact element={< AnalysisDashboard />}
+                    />  { /* <Route path="/byarea" exact element={<Byarea />} />  */} <
         /Route> <
         /Routes>
 
-        <
+                    <
         /Router>
 
-        { /* K? */ } { /* <Home/> */ } { /* <Login/> */ }
+                    { /* K? */} { /* <Home/> */} { /* <Login/> */}
 
 
 
-        <
+                    <
         />
-    );
+                    );
 }
 
-export default App;
-export { fname };
+                    export default App;
+                    export {fname};
